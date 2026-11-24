@@ -18,23 +18,6 @@
             "role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Javaabu/forms",
-            "no-api": true
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Javaabu/manifest",
-            "no-api": true
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Javaabu/permissions",
-            "no-api": true
-        }
-    ],
     "require": {
         "php": "^8.4",
         "illuminate/console": "^12.0 || ^13.0",
@@ -46,9 +29,9 @@
         "illuminate/routing": "^12.0 || ^13.0",
         "illuminate/support": "^12.0 || ^13.0",
         "illuminate/validation": "^12.0 || ^13.0",
-        "javaabu/forms": "^2.0@dev",
-        "javaabu/manifest": "^1.0@dev",
-        "javaabu/permissions": "^3.0@dev",
+        "javaabu/forms": "^2.0@alpha",
+        "javaabu/manifest": "^1.0@alpha",
+        "javaabu/permissions": "^3.0@alpha",
         "openspout/openspout": "^5.0"
     },
     "require-dev": {
